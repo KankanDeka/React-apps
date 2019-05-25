@@ -1,0 +1,23 @@
+.ul{
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+.li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1.5em;
+    float: right;
+  }
+
+.liBrand{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+    font-size: 1.5em;
+}

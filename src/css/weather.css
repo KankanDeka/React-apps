@@ -1,0 +1,78 @@
+/* form design */
+
+#form{
+    /* background-color: aquamarine; */
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 0px 0px 30px white;
+    background-image: linear-gradient(25deg, red)10%, rgba(green) )
+}
+#inputbox{
+    margin: 20px;
+    font-size: 20px;
+    border: 1px solid red;
+    text-align: center;
+    box-shadow: 0px 0px 6px red;
+}
+#formButton{
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 10%;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 6px grey;
+    color: antiquewhite;
+
+}
+#resultBox{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 30px white;
+    text-align: inherit;
+    font-size: 20px;
+    /* background-image: linear-gradient(25deg, rgba(255,0,0,0.5)10%, rgba(0,255,0,0.7) ) */
+
+}
+#resultText{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 23px;
+    font-weight: 800;
+    text-shadow: 0px 0px 10px white;
+
+}
+
+#maindiv{
+    display: flex;
+    height: 500px;
+    width: 1280px;
+    flex: auto;
+    margin: 35px;
+    position: relative;
+    box-shadow: 4px 5px 14px #888;
+    background-image: linear-gradient(25deg, rgba(255,0,0,0.5)10%, rgba(0,255,0,0.7) )
+}
+#formdiv{
+    margin-top: 150px;
+    font-weight: 700px;
+    flex: auto;
+}
+#resultdiv{
+     margin-right: 100px;
+    margin-top: 150px;
+    font-weight: 700px;
+    flex: auto;
+    /* position: absolute; */
+}
+
+
+#titlediv{
+    text-align: center;
+    font-size: 24px;
+    margin: 90px;
+    margin-top: 200px;
+    text-shadow: 0px 0px 10px white;
+    cursor: crosshair;
+}
